@@ -5,11 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "start:server": "cd backend && nodemon app.js"
   },
   "author": "Gabriel Macario",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^3.1.3"
+    "cypress": "^3.1.3",
+    "nodemon": "^1.18.9"
+  },
+  "dependencies": {
+    "express": "^4.16.4"
   }
 }
