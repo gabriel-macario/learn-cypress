@@ -1,0 +1,15 @@
+{
+  "name": "learn-cypress",
+  "version": "1.0.0",
+  "description": "Project for learning cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open"
+  },
+  "author": "Gabriel Macario",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^3.1.3"
+  }
+}
